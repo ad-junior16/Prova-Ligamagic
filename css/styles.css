@@ -1,0 +1,562 @@
+section {
+    display: flex;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    text-align: center;
+    border-right: 1px solid #cecece;
+    height: 100vh;
+
+}
+
+.container-2 {
+    flex: 50%;
+    margin-left: 64px;
+    margin-top: 64px;
+    margin-right: 150px;
+    margin-bottom: 40px;
+}
+
+.image-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 64px 40px 51px 80px
+}
+
+.image-show {
+    width: 350px;
+    height: 489px;
+    text-align: center;
+}
+
+.line {
+    width: 328px;
+    height: 1px;
+    background-color: #cecece;
+    margin-top: 32px;
+    margin-bottom: 32px;
+
+}
+
+.carroussel-img {
+    width: 106px;
+    height: 147px;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.carroussel-images {
+    min-width: 370px;
+}
+
+.carroussel-images img {
+    margin-left: 8px;
+}
+
+.left-button {
+    transform: rotate(180deg);
+    border: none;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+}
+
+.right-button {
+    margin-left: 6px;
+    border: none;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+}
+
+.right-button,
+.left-button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    gap: 8px;
+    color: #cecece;
+    font-family: "jost", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.vertical-line {
+    height: 10px;
+    margin-top: 3px;
+    width: 1px;
+    background-color: #cecece;
+
+}
+
+.expand {
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 4px 8px 0px rgba(4, 5, 12, 0.10);
+    min-height: 44px;
+    align-items: center;
+    font-family: "jost", sans-serif;
+}
+
+.info-early {
+    display: flex;
+    margin-left: 12px;
+}
+
+.info-early p {
+    font-weight: 400;
+}
+
+.info-early svg {
+    margin-right: 5px;
+}
+
+.info-late {
+    display: flex;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.info-late p {
+    font-weight: 600;
+}
+
+.line-expand {
+    margin-right: 8px;
+    background-color: #cecece;
+    height: 14px;
+    width: 1px;
+}
+
+.expand-button {
+    margin-left: 6px;
+    border: none;
+    height: 16px;
+    width: 16px;
+    background-color: transparent;
+    transform: rotate(90deg);
+}
+
+.expand-button:hover {
+    cursor: pointer;
+}
+
+.favorite {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.favorite h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.title-card p {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    color: #727270;
+    margin-top: 5px;
+}
+
+.buttons-fav {
+    display: flex;
+    align-items: center;
+}
+
+.heart-button {
+    margin-right: 16px;
+    border: none;
+    background-color: transparent;
+    width: 32px;
+    height: 32px;
+}
+
+.heart-button:hover {
+    cursor: pointer;
+}
+
+.ret-button {
+    border: 0.8px solid #cecece;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECECEA;
+}
+
+.ret-button:hover {
+    cursor: pointer;
+}
+
+.buy-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+    box-shadow: 0px 4px 8px 0px rgba(4, 5, 12, 0.10);
+    background-color: #ececea;
+    padding: 14px 20px 18px 20px;
+    border-radius: 1px;
+    height: 140px;
+}
+
+.buy-title {
+    display: flex;
+    align-items: center;
+}
+
+.buy-title svg {
+    display: flex;
+    margin-left: 8px;
+}
+
+.buy-title h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.content-buy p {
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+
+.input-change {
+    display: flex;
+    width: 102px;
+    height: 40px;
+    border: 1px solid #cecece;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.input-change input {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    width: 30px;
+    height: 40px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.increase-button {
+    width: 16px;
+    height: 16px;
+    border: none;
+}
+
+.increase-button:hover {
+    cursor: pointer;
+}
+
+.decrease-button {
+    width: 16px;
+    height: 16px;
+    border: none;
+}
+
+.decrease-button:hover{
+    cursor: pointer;
+}
+
+.filter-button {
+    margin-left: 8px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid #cecece;
+}
+
+.filter-button:hover {
+    cursor: pointer;
+}
+
+.add-list-button {
+    border: none;
+    background-color: #127119;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 24px;
+    height: 40px;
+    width: 208px;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    color: #DAEDCE;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+.add-list-button svg {
+    margin-right: 8px;
+}
+
+.add-list-button:hover{
+    cursor: pointer;
+}
+
+.details {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details h3 {
+    margin-left: 10px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.details button {
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    color: #FF5921;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.details button:hover {
+    cursor: pointer;
+}
+
+.color {
+    border-radius: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ececea;
+    height: 34px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.color-left {
+    margin-left: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727270;
+}
+
+.color-right {
+    margin-right: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #0085FF;
+}
+
+.mana {
+    border-radius: 1px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ececea;
+    align-items: center;
+    height: 34px;
+}
+
+.mana p {
+    margin-left: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727270;
+}
+
+.mana-icon {
+    margin-right: 8px;
+}
+
+.type-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ececea;
+    height: 34px;
+    margin-top: 8px;
+    align-items: center;
+    border-radius: 1px;
+}
+
+.type-left {
+    margin-left: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727270;
+}
+
+.type-right {
+    margin-right: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+
+    height: 34px;
+}
+
+.price p {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-family: 'Jost', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.price svg {
+    margin-left: 4px;
+}
+
+.price button {
+    margin-right: 8px;
+    border: none;
+    background-color: transparent;
+    color: #FF5921;
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    
+}
+
+.price button:hover{
+    cursor: pointer;
+}
+
+.market-price {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ececea;
+    border-radius: 1px;
+    align-items: center;
+    height: 34px;
+}
+
+.rarity {
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    color: #727270;
+}
+
+.rarity p {
+    margin-left: 5px
+}
+
+.prices {
+    display: flex;
+
+}
+
+.price-cont-1,
+.price-cont-2 {
+    display: flex;
+    margin-right: 20px;
+    font-family: 'Jost' , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #727270;
+}
+
+.price-cont-3 {
+    display: flex;
+    margin-right: 8px;
+    font-family: 'Jost' , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #727270;
+}
+
+.column-1 {
+    background-color: #69BC40;
+    width: 4px;
+    margin-right: 8px;
+}
+
+.column-2 {
+    background-color: #DDC80B;
+    width: 4px;
+    margin-right: 8px;
+}
+
+.column-3 {
+    background-color: #FF8B64;
+    width: 4px;
+    margin-right: 8px;
+}
+
+.my-input {
+    -moz-appearance: textfield;
+    /* Firefox */
+}
+
+.my-input::-webkit-inner-spin-button,
+.my-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;    
+    margin: 0;
+    
+}
+
+.meu-input[type="number"] {
+    -moz-appearance: textfield;
+}
